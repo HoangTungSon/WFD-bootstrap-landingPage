@@ -7,7 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <title>Title</title>
+    <title>Landing Page</title>
 </head>
 <style>
     .nav-item {
@@ -25,7 +25,7 @@
     <div class="navbar-brand">
         Microsoft
     </div>
-    <div class="nav-item active alert-dark">
+    <div class="nav-item active font-weight-bold">
         Surface
     </div>
     <div class="nav-item dropdown">
@@ -75,7 +75,7 @@
            aria-haspopup="true" aria-expanded="false">
             Shop now
         </a>
-        <div class="dropdown-menu" aria-labelledby="accessoriesDropdown">
+        <div class="dropdown-menu" aria-labelledby="shopDropdown">
             <a class="dropdown-item" href="#">Surface deals</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Another action</a>
@@ -88,9 +88,34 @@
     <div class="nav-item">
         <a href="#">Support</a>
     </div>
+
+    <div class="navbar-nav ml-auto">
+        <div class="navbar-nav nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="allDropdown" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+                All Microsoft
+            </a>
+            <div class="dropdown-menu" aria-labelledby="allDropdown">
+                <a class="dropdown-item" href="#">Surface deals</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
 </nav>
 <div class="row">
     <img class="col-sm-12" src="image/small-memory-lp.jpg" height="500px">
 </div>
+<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+<p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+<p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
 </body>
 </html>
