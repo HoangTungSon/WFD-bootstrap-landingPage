@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Title</title>
+</head>
+<style>
+    .nav-item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .dropdown {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+</style>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
+    <div class="navbar-brand">
+        Microsoft
+    </div>
+    <div class="nav-item active alert-dark">
+        Surface
+    </div>
+    <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="computerDropdown" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+            Computer
+        </a>
+        <div class="dropdown-menu dropright" aria-labelledby="computerDropdown">
+            <a class="dropdown-item dropdown-link dropdown-toggle" href="#" id="proX" data-toggle="dropdown"
+               aria-haspopup="true"
+               aria-expanded="false">
+                NEW Surface Pro X
+            </a>
+            <div class="dropdown-menu" aria-labelledby="proX">
+                <a class="dropdown-item" href="#">Over view</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Tech spec</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">For business</a>
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+    <div class="navbar-nav nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="accessoriesDropdown" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+            Accessories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="accessoriesDropdown">
+            <a class="dropdown-item" href="#">NEW Surface Earbuds</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+    <div class="nav-item">
+        <a href="#">For business</a>
+    </div>
+    <div class="navbar-nav nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="shopDropdown" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+            Shop now
+        </a>
+        <div class="dropdown-menu" aria-labelledby="accessoriesDropdown">
+            <a class="dropdown-item" href="#">Surface deals</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+    <div class="nav-item">
+        <a href="#">Support</a>
+    </div>
+</nav>
+<div class="row">
+    <img class="col-sm-12" src="image/small-memory-lp.jpg" height="500px">
+</div>
+</body>
+</html>
